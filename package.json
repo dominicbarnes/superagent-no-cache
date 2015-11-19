@@ -27,6 +27,9 @@
       "**/test/**"
     ]
   },
+  "browser": {
+    "ie": "component-ie"
+  },
   "dependencies": {
     "component-ie": "^1.0.0"
   },

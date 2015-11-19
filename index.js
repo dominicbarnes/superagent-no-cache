@@ -1,9 +1,4 @@
-var ie
-try {
-  ie = require('ie')
-} catch (e) {
-  ie = require('component-ie')
-}
+var ie = require('ie');
 
 function with_query_strings (request) {
   request._query = [Date.now().toString()]
